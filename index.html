@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Only Audio Player Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<style>
+/* ENABLE FOR OPTIONAL EFFECTS */
+/*
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.01);
+}
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.02);
+-moz-transform: scale(1.02);
+transform: scale(1.02);
+}
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #8c8f8f;
+-webkit-box-shadow:  2px 2px 4px 0px #8c8f8f;
+box-shadow: 2px 2px 4px 0px #8c8f8f;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:0px 0px 0px 0px ;
+}
+*/
+</style>
+
+<body>
+
+<div class="container">
+  <h2 class="mb-5">Audio Player</h2>
+  <div class="row">
+  
+  	<!-- Player Container Div -->
+    <div class="col-4 col-sm-12 col-md-4 col-lg-4">
+      <div class="card zoom">
+      <img class="card-img-top" src="https://reggaealbumcovers.com/wp-content/uploads/2010/04/gaza21.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-music mr-2"></i>Beautiful</h5>
+        <p class="card-text">Vybz Kartel</p>
+        <div class="bg-secondary border border-dark rounded pt-2 mb-2">
+          <audio controls>
+            <source src="https://download.mp3-j.icu/e/Vybz-Kartel-Beautiful.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <a type="application/octet-stream" href="https://download.mp3-j.icu/e/Vybz-Kartel-Beautiful.mp3" download class="btn btn-outline-secondary float-right">
+        	<i class="fas fa-download"></i>
+            Download
+        </a>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Player Container Div -->
+   <div class="col-4 col-sm-12 col-md-4 col-lg-4">
+      <div class="card zoom">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-music mr-2"></i>Beautiful</h5>
+        <p class="card-text">Vybz Kartel</p>
+        <div class="bg-secondary border border-dark rounded pt-2 mb-2">
+          <audio controls>
+            <source src="https://download.mp3-j.icu/e/Vybz-Kartel-Beautiful.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <a type="application/octet-stream" href="https://download.mp3-j.icu/e/Vybz-Kartel-Beautiful.mp3" download class="btn btn-outline-secondary float-right">
+        	<i class="fas fa-download"></i>
+            Download
+        </a>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
